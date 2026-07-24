@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="Jatinkumar Parmar ID card lanyard">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 690" width="420" height="690" role="img" aria-label="Jatinkumar Parmar ID card lanyard">
 <title>Jatinkumar Parmar — swinging ID badge</title>
 <defs>
 <style type="text/css"><![CDATA[
@@ -40,13 +40,17 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <stop offset="100%"><animate attributeName="stop-color" values="#7c5cff;#22d3ee;#7c5cff" dur="5s" repeatCount="indefinite"/></stop>
 </linearGradient>
 <radialGradient id="lglow"><stop offset="0%" stop-color="#7c5cff" stop-opacity=".18"/><stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+<linearGradient id="ringg2" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%"><animate attributeName="stop-color" values="#22d3ee;#7c5cff;#fbbf24;#22d3ee" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#fbbf24;#22d3ee;#7c5cff;#fbbf24" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
 <filter id="glow2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".5"/></filter>
-<clipPath id="cardclip"><rect x="82" y="298" width="256" height="330" rx="20"/></clipPath>
+<clipPath id="cardclip"><rect x="82" y="298" width="256" height="358" rx="20"/></clipPath>
 <clipPath id="avatarclip"><circle cx="210" cy="384" r="46"/></clipPath>
 </defs>
 
-<circle cx="210" cy="440" r="230" fill="url(#lglow)"><animate attributeName="r" values="230;250;230" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="210" cy="460" r="240" fill="url(#lglow)"><animate attributeName="r" values="240;260;240" dur="5s" repeatCount="indefinite"/></circle>
 
 <g fill="#fbbf24">
 <path class="tw" style="animation-delay:.4s" d="M50,90 l2,6 6,2 -6,2 -2,6 -2,-6 -6,-2 6,-2 z"/>
@@ -59,8 +63,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <g class="sway">
     <!-- strap -->
     <path d="M195,-40 L195,300 L225,300 L225,-40 Z" fill="url(#strapg)"/>
-    <text x="210" y="130" font-size="11" font-weight="700" fill="#0b0e1f" text-anchor="middle" transform="rotate(90,210,130)" letter-spacing="2">PARMARJH · AI ENGINEER · AGENTIC AI </text> 
-    
+    <text x="210" y="130" font-size="11" font-weight="700" fill="#0b0e1f" text-anchor="middle" transform="rotate(90,210,130)" letter-spacing="2">PARMARJH · AI ENGINEER · AGENTIC AI</text>
 
     <!-- clasp -->
     <rect x="192" y="292" width="36" height="20" rx="6" fill="url(#metal)" stroke="#4a4f5c"/>
@@ -68,20 +71,16 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
     <!-- card wobble group -->
     <g class="wob">
-      <rect x="78" y="296" width="264" height="338" rx="22" fill="#000" opacity=".35" filter="url(#cardShadow)"/>
-      <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardg)" stroke="url(#cardborder)" stroke-width="2.5"/>
+      <rect x="78" y="296" width="264" height="366" rx="22" fill="#000" opacity=".35" filter="url(#cardShadow)"/>
+      <rect x="82" y="298" width="256" height="358" rx="20" fill="url(#cardg)" stroke="url(#cardborder)" stroke-width="2.5"/>
 
       <!-- header strip -->
       <rect x="82" y="298" width="256" height="34" rx="20" fill="#171d3a"/>
-      <text x="210" y="320" text-anchor="middle" font-size="11" font-weight="700" fill="#8892b0" letter-spacing="3">ALL ACCESS · AI OPS </text>
+      <text x="210" y="320" text-anchor="middle" font-size="11" font-weight="700" fill="#8892b0" letter-spacing="3">ALL ACCESS · AI OPS</text>
 
       <!-- avatar ring with AI glyph -->
       <circle cx="210" cy="384" r="50" fill="none" stroke="url(#ringg2)" stroke-width="3" filter="url(#glow2)"/>
       <circle class="spin" cx="210" cy="384" r="58" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="3 8" opacity=".5"/>
-      <linearGradient id="ringg2" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%"><animate attributeName="stop-color" values="#22d3ee;#7c5cff;#fbbf24;#22d3ee" dur="6s" repeatCount="indefinite"/></stop>
-        <stop offset="100%"><animate attributeName="stop-color" values="#fbbf24;#22d3ee;#7c5cff;#fbbf24" dur="6s" repeatCount="indefinite"/></stop>
-      </linearGradient>
       <g clip-path="url(#avatarclip)">
         <rect x="164" y="338" width="92" height="92" fill="#0b0e1f"/>
         <g class="pl" fill="none" stroke="url(#ringg2)" stroke-width="2.6" stroke-linecap="round">
@@ -90,26 +89,26 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
           <path d="M196,388 L204,392 L210,382 L220,398 L226,392"/>
         </g>
       </g>
-           <text x="210" y="448" text-anchor="middle" font-size="17" font-weight="800" fill="url(#nameg2)">Jatinkumar Parmar</text>
-           <text x="210" y="463" text-anchor="middle" font-size="9.5" fill="#a9b4d0">Senior AI Engineer · Agentic AI</text>
-           <text x="210" y="475" text-anchor="middle" font-size="9.5" fill="#a9b4d0">GENERATIVE AI · LLM · CHATBOT</text>
-           <text x="210" y="487" text-anchor="middle" font-size="9.5" fill="#a9b4d0">PROMPT ENGINEER · NO CODE</text>
-           <text x="210" y="499" text-anchor="middle" font-size="9.5" fill="#a9b4d0">AIOPS · VLLM · MLOPS</text>
-           <text x="210" y="511" text-anchor="middle" font-size="9.5" fill="#a9b4d0">AI AUTOMATION · SOFTWARE DEV</text>
-           <text x="210" y="523" text-anchor="middle" font-size="9.5" fill="#a9b4d0">WEB DEVELOPMENT</text>
-           <text x="210" y="539" text-anchor="middle" font-size="10.5" fill="#8892b0">@parmarjh · Kamrej, Surat, Gujarat</text>
-           <text x="210" y="552" text-anchor="middle" font-size="10.5" fill="#8892b0">India · 395001</text>
-     
+
+      <text x="210" y="448" text-anchor="middle" font-size="17" font-weight="800" fill="url(#nameg2)">Jatinkumar Parmar</text>
+      <text x="210" y="463" text-anchor="middle" font-size="9.5" fill="#a9b4d0">Senior AI Engineer · Agentic AI</text>
+      <text x="210" y="475" text-anchor="middle" font-size="9.5" fill="#a9b4d0">GENERATIVE AI · LLM · CHATBOT</text>
+      <text x="210" y="487" text-anchor="middle" font-size="9.5" fill="#a9b4d0">PROMPT ENGINEER · NO CODE</text>
+      <text x="210" y="499" text-anchor="middle" font-size="9.5" fill="#a9b4d0">AIOPS · VLLM · MLOPS</text>
+      <text x="210" y="511" text-anchor="middle" font-size="9.5" fill="#a9b4d0">AI AUTOMATION · SOFTWARE DEV</text>
+      <text x="210" y="523" text-anchor="middle" font-size="9.5" fill="#a9b4d0">WEB DEVELOPMENT</text>
+      <text x="210" y="539" text-anchor="middle" font-size="10.5" fill="#8892b0">@parmarjh · Kamrej, Surat, Gujarat</text>
+      <text x="210" y="552" text-anchor="middle" font-size="10.5" fill="#8892b0">India · 395001</text>
 
       <!-- barcode -->
-      <g transform="translate(122,548)" fill="#c7d2fe">
+      <g transform="translate(122,566)" fill="#c7d2fe">
         <rect x="0" y="0" width="2" height="34"/><rect x="4" y="0" width="1" height="34"/><rect x="8" y="0" width="3" height="34"/><rect x="14" y="0" width="1" height="34"/><rect x="18" y="0" width="2" height="34"/><rect x="23" y="0" width="1" height="34"/><rect x="27" y="0" width="4" height="34"/><rect x="34" y="0" width="1" height="34"/><rect x="38" y="0" width="2" height="34"/><rect x="43" y="0" width="1" height="34"/><rect x="47" y="0" width="3" height="34"/><rect x="53" y="0" width="1" height="34"/><rect x="57" y="0" width="2" height="34"/><rect x="62" y="0" width="1" height="34"/><rect x="66" y="0" width="4" height="34"/><rect x="73" y="0" width="1" height="34"/><rect x="77" y="0" width="2" height="34"/><rect x="82" y="0" width="1" height="34"/><rect x="86" y="0" width="3" height="34"/><rect x="92" y="0" width="1" height="34"/><rect x="96" y="0" width="2" height="34"/><rect x="101" y="0" width="1" height="34"/><rect x="105" y="0" width="4" height="34"/><rect x="112" y="0" width="1" height="34"/><rect x="116" y="0" width="2" height="34"/><rect x="121" y="0" width="1" height="34"/><rect x="125" y="0" width="3" height="34"/><rect x="131" y="0" width="1" height="34"/><rect x="135" y="0" width="2" height="34"/><rect x="140" y="0" width="1" height="34"/><rect x="144" y="0" width="4" height="34"/><rect x="151" y="0" width="1" height="34"/><rect x="155" y="0" width="2" height="34"/>
       </g>
-      <text x="210" y="598" text-anchor="middle" font-size="10" fill="#6b7290" letter-spacing="2">GH-900247-AGT</text>
+      <text x="210" y="616" text-anchor="middle" font-size="10" fill="#6b7290" letter-spacing="2">GH-900247-AGT</text>
 
       <!-- holographic shine sweep -->
       <g clip-path="url(#cardclip)">
-        <rect class="shine" x="82" y="298" width="90" height="330" fill="url(#shineg)"/>
+        <rect class="shine" x="82" y="298" width="90" height="358" fill="url(#shineg)"/>
       </g>
     </g>
   </g>
