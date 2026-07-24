@@ -59,7 +59,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <g class="sway">
     <!-- strap -->
     <path d="M195,-40 L195,300 L225,300 L225,-40 Z" fill="url(#strapg)"/>
-    <text x="210" y="130" font-size="11" font-weight="700" fill="#0b0e1f" text-anchor="middle" transform="rotate(90,210,130)" letter-spacing="2">PARMARJH · AI ENGINEER</text>
+    <text x="210" y="130" font-size="11" font-weight="700" fill="#0b0e1f" text-anchor="middle" transform="rotate(90,210,130)" letter-spacing="2">PARMARJH · AI ENGINEER</text> <br>
     <text x="210" y="230" font-size="11" font-weight="700" fill="#0b0e1f" text-anchor="middle" transform="rotate(90,210,230)" letter-spacing="2">AGENTIC AI · RAG · LANGGRAPH</text>
 
     <!-- clasp -->
