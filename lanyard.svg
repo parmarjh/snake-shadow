@@ -73,7 +73,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 
       <!-- header strip -->
       <rect x="82" y="298" width="256" height="34" rx="20" fill="#171d3a"/>
-      <text x="210" y="320" text-anchor="middle" font-size="11" font-weight="700" fill="#8892b0" letter-spacing="3">ALL ACCESS · AI OPS</text>
+      <text x="210" y="320" text-anchor="middle" font-size="11" font-weight="700" fill="#8892b0" letter-spacing="3">ALL ACCESS · AI OPS </text>
 
       <!-- avatar ring with AI glyph -->
       <circle cx="210" cy="384" r="50" fill="none" stroke="url(#ringg2)" stroke-width="3" filter="url(#glow2)"/>
@@ -92,7 +92,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
       </g>
 
       <text x="210" y="456" text-anchor="middle" font-size="19" font-weight="800" fill="url(#nameg2)">Jatinkumar Parmar</text>
-      <text x="210" y="476" text-anchor="middle" font-size="12.5" fill="#a9b4d0">Senior AI Engineer · Agentic AI</text>
+      <text x="210" y="476" text-anchor="middle" font-size="12.5" fill="#a9b4d0">Senior AI Engineer · Agentic AI · AI · ML · GENERATIVE AI · LLM · CHATBOT · PROMPT ENGINEER · NO CODE </text>
       <text x="210" y="496" text-anchor="middle" font-size="12" fill="#8892b0">@parmarjh · Surat, India</text>
 
       <!-- barcode -->
