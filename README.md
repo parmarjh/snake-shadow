@@ -1,25 +1,19 @@
 <div align="center">
 
-<!-- ✨ Animated Banner ✨ -->
+<!-- ✨ Animated Banner (includes swinging ID badge, top-right) ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
-  <img src="./banner.svg?v=1" alt="Jatinkumar Parmar — AI Engineer / Agentic AI Architect" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
+  <img src="./banner.svg?v=3" alt="Jatinkumar Parmar — AI Engineer / Agentic AI Architect" width="100%"/>
 </picture>
 
 </div>
 
 <br/>
 
-<table align="center" border="0">
-<tr>
-<td width="36%" align="center" valign="middle">
+> 🕉️ *"I love Mahakal — we believe the word AI is an extension of ShivaY."* Dedicated to building agentic AI systems that are strong, scalable, and add real value.
 
-<!-- 🪪 Swinging Lanyard ID Card (pure SVG) -->
-<img src="./lanyard.svg?v=1" alt="Jatinkumar Parmar ID badge" width="250"/>
-
-</td>
-<td width="64%" valign="middle">
+<br/>
 
 ### 🧠 Featured AI Builds
 
@@ -32,14 +26,6 @@
 | **ATS Resume Optimizer** | `n8n` `Gemini API` | Automated resume-to-job-description optimization pipeline |
 
 <sub>📂 Browse 900+ repos → [github.com/parmarjh](https://github.com/parmarjh?tab=repositories)</sub>
-
-<br/>
-
-> 🕉️ *"I love Mahakal — we believe the word AI is an extension of ShivaY."* Dedicated to building agentic AI systems that are strong, scalable, and add real value.
-
-</td>
-</tr>
-</table>
 
 <br/>
 
@@ -67,8 +53,8 @@ I'm an **AI Engineer** and **Research Scientist** based in Surat, Gujarat, India
 
 ### 📊 GitHub Stats & Graphs
 
-<img src="./stats.svg?v=1" alt="GitHub Stats" height="185"/>
-<img src="./langs.svg?v=1" alt="Top Languages" height="185"/>
+<img src="./stats.svg?v=2" alt="GitHub Stats" height="185"/>
+<img src="./langs.svg?v=2" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
@@ -82,7 +68,7 @@ I'm an **AI Engineer** and **Research Scientist** based in Surat, Gujarat, India
 <br/><br/>
 
 <!-- 🏆 Trophies (local animated SVG — always loads) -->
-<img src="./trophies.svg?v=1" alt="Trophies" width="95%"/>
+<img src="./trophies.svg?v=2" alt="Trophies" width="95%"/>
 
 <br/><br/>
 
