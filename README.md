@@ -31,13 +31,13 @@
 
 ### 🚀 About Me
 
-I'm an **AI Engineer** and **Research Scientist** based in Surat, Gujarat, India, with **10+ years** of experience shipping end-to-end AI systems on **AWS** and **GCP**. I specialize in **agentic AI**, **RAG pipelines**, **LangGraph orchestration**, and **n8n automation** — turning LLMs into systems that can actually take action safely.
+I'm an **AI Engineer** and **Research Scientist** based in Surat, Gujarat, India, with **10+ years** of experience shipping end-to-end AI systems on **AWS** and **GCP**. I specialize in **agentic AI**, **RAG pipelines**, **LangGraph orchestration**, **AIOps/MLOps**, and **n8n automation** — turning LLMs into systems that can actually take action safely.
 
 - 🔭 **Currently:** building and shipping agentic AI infrastructure — authorization gateways, multi-channel voice agents, and RAG-backed assistants
-- 🏢 **Running:** an AI automation agency (chatbots, n8n workflows, agentic systems) and a **30K+** community of AI builders
+- 🏢 **Running:** an AI automation agency (chatbots, n8n workflows, agentic systems, web development) and a **30K+** community of AI builders
 - 🤝 **Also doing:** pro-bono AI consulting for non-profits and early-stage startups
 - 📚 **Author:** reviewed **14+ technical books** for Packt, Manning, and Springer Nature
-- 🌱 **Open to:** remote roles in agentic AI, RAG, and LLM engineering with UK/US teams
+- 🌱 **Open to:** remote roles in agentic AI, RAG, AIOps/MLOps, and LLM engineering with UK/US teams
 
 ---
 
@@ -45,7 +45,9 @@ I'm an **AI Engineer** and **Research Scientist** based in Surat, Gujarat, India
 
 <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,fastapi,docker,js,ts,nodejs,express,mongodb,mysql,postgres,react,redux,wordpress,php,aws,gcp&perline=10" alt="Tech Stack"/>
 
-**Agentic AI & LLM stack:** LangChain · LangGraph · LlamaIndex · RAG · Multi-Agent Orchestration · Vector DBs (FAISS, Pinecone, Chroma) · n8n · LLMOps
+**Agentic AI & LLM stack:** LangChain · LangGraph · LlamaIndex · RAG · Multi-Agent Orchestration · Vector DBs (FAISS, Pinecone, Chroma) · vLLM · n8n · LLMOps · AIOps · MLOps
+
+**Also:** AI Automation · Software Development · Web Development · Prompt Engineering · No-Code/Low-Code
 
 <br/>
 
@@ -80,10 +82,12 @@ I'm an **AI Engineer** and **Research Scientist** based in Surat, Gujarat, India
 
 ### 📫 Let's Connect
 
-<a href="https://www.linkedin.com/in/jhparmar/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/jhparmar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://github.com/parmarjh"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://dev.to/jhparmar"><img src="https://img.shields.io/badge/DEV.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"/></a>
+<a href="https://jhparmar.medium.com"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
+<a href="https://www.youtube.com/channel/UCSLMS3odjPxesH02jnhWMnA"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
 <a href="https://twitter.com/parmarjatin4911"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
-<a href="https://www.youtube.com/funinaiofficial"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
-<a href="https://jhparmar.medium.com/"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
 <a href="https://linktr.ee/jhparmar"><img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree"/></a>
 
 <br/><br/>
@@ -106,6 +110,7 @@ I'm an **AI Engineer** and **Research Scientist** based in Surat, Gujarat, India
 - 🤖 Agentic AI systems and multi-agent orchestration
 - 📚 RAG architectures and vector-database-backed retrieval
 - 🕸️ LangGraph-based workflow design
+- ⚙️ AIOps/MLOps for LLM systems in production
 - 🛠️ No-code / low-code platform development (n8n)
 - 🌐 Growing the 30K+ AI builder community
 - 💼 Remote agentic AI / RAG / LLM engineering roles (UK & US)
