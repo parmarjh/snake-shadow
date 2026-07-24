@@ -70,7 +70,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%" stop-color="#4c3fae"/><stop offset="50%" stop-color="#7c5cff"/><stop offset="100%" stop-color="#4c3fae"/>
 </linearGradient>
-<linearGradient id="lanyardcardg2" x1="0" y1="0" x2="1" y2="1">
+<linearGradient id="lanyardcardg2" x1="1" y1="0" x2="1" y2="2">
   <stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#eef1fa"/>
 </linearGradient>
 <linearGradient id="cardborder" x1="0" y1="0" x2="1" y2="1">
