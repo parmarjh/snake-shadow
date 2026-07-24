@@ -3,7 +3,7 @@
 <!-- ✨ Animated Banner (includes swinging ID badge, top-right) ✨ -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=6">
   <img src="./banner.svg?v=3" alt="Jatinkumar Parmar — AI Engineer / Agentic AI Architect" width="100%"/>
 </picture>
 
