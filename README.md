@@ -16,7 +16,7 @@
 <td width="36%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card (pure SVG) -->
-<img src="./lanyard.svg?v=1" alt="Jatinkumar Parmar ID badge" width="310"/>
+<img src="./lanyard.svg?v=1" alt="Jatinkumar Parmar ID badge" width="250"/>
 
 </td>
 <td width="64%" valign="middle">
