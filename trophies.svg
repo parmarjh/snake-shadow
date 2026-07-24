@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 170" width="980" height="170" role="img" aria-label="Jatinkumar Parmar GitHub trophies">
+<title>GitHub Trophies — parmarjh</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes popIn{0%{opacity:0;transform:translateY(12px) scale(.8)}70%{opacity:1;transform:translateY(-2px) scale(1.05)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes shine{0%{transform:translateX(-160px) skewX(-18deg)}55%,100%{transform:translateX(180px) skewX(-18deg)}}
+.cell{opacity:0;animation:popIn .5s cubic-bezier(.2,.8,.3,1.3) forwards;transform-box:fill-box;transform-origin:center}
+.shine{animation:shine 3.6s ease-in-out infinite}
+]]></style>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#7c5cff"/></linearGradient>
+<linearGradient id="shineg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".12"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c0"><rect x="10" y="10" width="150" height="150" rx="16"/></clipPath>
+<clipPath id="c1"><rect x="176" y="10" width="150" height="150" rx="16"/></clipPath>
+<clipPath id="c2"><rect x="342" y="10" width="150" height="150" rx="16"/></clipPath>
+<clipPath id="c3"><rect x="508" y="10" width="150" height="150" rx="16"/></clipPath>
+<clipPath id="c4"><rect x="674" y="10" width="150" height="150" rx="16"/></clipPath>
+<clipPath id="c5"><rect x="840" y="10" width="150" height="150" rx="16"/></clipPath>
+</defs>
+
+<g font-family="monospace">
+<!-- 6 trophy cells -->
+<g class="cell" style="animation-delay:.1s">
+  <rect x="10" y="10" width="150" height="150" rx="16" fill="#0c1024" stroke="url(#tg)" stroke-width="2"/>
+  <text x="85" y="52" text-anchor="middle" font-size="30">🏆</text>
+  <text x="85" y="86" text-anchor="middle" font-size="12.5" fill="#f1f5ff" font-weight="700">Experience</text>
+  <text x="85" y="106" text-anchor="middle" font-size="20" fill="#fbbf24" font-weight="800">10+ yrs</text>
+  <text x="85" y="128" text-anchor="middle" font-size="10.5" fill="#8892b0">S-RANK</text>
+  <g clip-path="url(#c0)"><rect class="shine" x="10" y="10" width="60" height="150" fill="url(#shineg)" style="animation-delay:.4s"/></g>
+</g>
+<g class="cell" style="animation-delay:.25s">
+  <rect x="176" y="10" width="150" height="150" rx="16" fill="#0c1024" stroke="url(#tg)" stroke-width="2"/>
+  <text x="251" y="52" text-anchor="middle" font-size="30">📦</text>
+  <text x="251" y="86" text-anchor="middle" font-size="12.5" fill="#f1f5ff" font-weight="700">Repositories</text>
+  <text x="251" y="106" text-anchor="middle" font-size="20" fill="#fbbf24" font-weight="800">900+</text>
+  <text x="251" y="128" text-anchor="middle" font-size="10.5" fill="#8892b0">A-RANK</text>
+  <g clip-path="url(#c1)"><rect class="shine" x="176" y="10" width="60" height="150" fill="url(#shineg)" style="animation-delay:.6s"/></g>
+</g>
+<g class="cell" style="animation-delay:.4s">
+  <rect x="342" y="10" width="150" height="150" rx="16" fill="#0c1024" stroke="url(#tg)" stroke-width="2"/>
+  <text x="417" y="52" text-anchor="middle" font-size="30">🤖</text>
+  <text x="417" y="86" text-anchor="middle" font-size="12.5" fill="#f1f5ff" font-weight="700">Agentic AI</text>
+  <text x="417" y="106" text-anchor="middle" font-size="20" fill="#fbbf24" font-weight="800">Builder</text>
+  <text x="417" y="128" text-anchor="middle" font-size="10.5" fill="#8892b0">S-RANK</text>
+  <g clip-path="url(#c2)"><rect class="shine" x="342" y="10" width="60" height="150" fill="url(#shineg)" style="animation-delay:.8s"/></g>
+</g>
+<g class="cell" style="animation-delay:.55s">
+  <rect x="508" y="10" width="150" height="150" rx="16" fill="#0c1024" stroke="url(#tg)" stroke-width="2"/>
+  <text x="583" y="52" text-anchor="middle" font-size="30">📚</text>
+  <text x="583" y="86" text-anchor="middle" font-size="12.5" fill="#f1f5ff" font-weight="700">Tech Reviewer</text>
+  <text x="583" y="106" text-anchor="middle" font-size="20" fill="#fbbf24" font-weight="800">14+ books</text>
+  <text x="583" y="128" text-anchor="middle" font-size="10.5" fill="#8892b0">A-RANK</text>
+  <g clip-path="url(#c3)"><rect class="shine" x="508" y="10" width="60" height="150" fill="url(#shineg)" style="animation-delay:1s"/></g>
+</g>
+<g class="cell" style="animation-delay:.7s">
+  <rect x="674" y="10" width="150" height="150" rx="16" fill="#0c1024" stroke="url(#tg)" stroke-width="2"/>
+  <text x="749" y="52" text-anchor="middle" font-size="30">🌐</text>
+  <text x="749" y="86" text-anchor="middle" font-size="12.5" fill="#f1f5ff" font-weight="700">Community</text>
+  <text x="749" y="106" text-anchor="middle" font-size="20" fill="#fbbf24" font-weight="800">30K+</text>
+  <text x="749" y="128" text-anchor="middle" font-size="10.5" fill="#8892b0">S-RANK</text>
+  <g clip-path="url(#c4)"><rect class="shine" x="674" y="10" width="60" height="150" fill="url(#shineg)" style="animation-delay:1.2s"/></g>
+</g>
+<g class="cell" style="animation-delay:.85s">
+  <rect x="840" y="10" width="150" height="150" rx="16" fill="#0c1024" stroke="url(#tg)" stroke-width="2"/>
+  <text x="915" y="52" text-anchor="middle" font-size="30">⚙️</text>
+  <text x="915" y="86" text-anchor="middle" font-size="12.5" fill="#f1f5ff" font-weight="700">Automations</text>
+  <text x="915" y="106" text-anchor="middle" font-size="20" fill="#fbbf24" font-weight="800">n8n Pro</text>
+  <text x="915" y="128" text-anchor="middle" font-size="10.5" fill="#8892b0">A-RANK</text>
+  <g clip-path="url(#c5)"><rect class="shine" x="840" y="10" width="60" height="150" fill="url(#shineg)" style="animation-delay:1.4s"/></g>
+</g>
+</g>
+</svg>

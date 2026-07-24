@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="Jatinkumar Parmar ID card lanyard">
+<title>Jatinkumar Parmar — swinging ID badge</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes settle{0%{transform:rotate(0deg) translateY(-660px)}18%{transform:rotate(0deg) translateY(0)}30%{transform:rotate(12deg)}46%{transform:rotate(-9deg)}62%{transform:rotate(6deg)}78%{transform:rotate(-3.5deg)}92%{transform:rotate(1.5deg)}100%{transform:rotate(0deg)}}
+@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes cardWobble{0%,100%{transform:rotate(1.5deg)}50%{transform:rotate(-1.5deg)}}
+@keyframes shine{0%{transform:translateX(-340px) skewX(-18deg)}55%,100%{transform:translateX(420px) skewX(-18deg)}}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.7}50%{transform:scale(1.2);opacity:1}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.settle{transform-origin:210px 6px;animation:settle 3.4s cubic-bezier(.34,1.1,.5,1) forwards}
+.sway{transform-origin:210px 6px;animation:sway 4.2s ease-in-out 3.4s infinite}
+.wob{transform-origin:210px 300px;animation:cardWobble 4.2s ease-in-out 3.4s infinite}
+.shine{animation:shine 4.5s ease-in-out 3.6s infinite}
+.tw{transform-box:fill-box;transform-origin:center;animation:twinkle 2.8s ease-in-out infinite}
+.pl{transform-box:fill-box;transform-origin:center;animation:pulse 2.6s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 12s linear infinite}
+]]></style>
+<linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#4c3fae"/><stop offset="50%" stop-color="#7c5cff"/><stop offset="100%" stop-color="#4c3fae"/>
+</linearGradient>
+<linearGradient id="cardg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#141a33"/><stop offset="100%" stop-color="#0b0e1f"/>
+</linearGradient>
+<linearGradient id="cardborder" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%"><animate attributeName="stop-color" values="#22d3ee;#7c5cff;#fbbf24;#22d3ee" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#fbbf24;#22d3ee;#7c5cff;#fbbf24" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#c8ccd6"/><stop offset="45%" stop-color="#8a90a0"/><stop offset="55%" stop-color="#6a7080"/><stop offset="100%" stop-color="#9aa0b0"/>
+</linearGradient>
+<linearGradient id="shineg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".14"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="nameg2" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#22d3ee;#7c5cff;#22d3ee" dur="5s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#7c5cff;#22d3ee;#7c5cff" dur="5s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<radialGradient id="lglow"><stop offset="0%" stop-color="#7c5cff" stop-opacity=".18"/><stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+<filter id="glow2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".5"/></filter>
+<clipPath id="cardclip"><rect x="82" y="298" width="256" height="330" rx="20"/></clipPath>
+<clipPath id="avatarclip"><circle cx="210" cy="384" r="46"/></clipPath>
+</defs>
+
+<circle cx="210" cy="440" r="230" fill="url(#lglow)"><animate attributeName="r" values="230;250;230" dur="5s" repeatCount="indefinite"/></circle>
+
+<g fill="#fbbf24">
+<path class="tw" style="animation-delay:.4s" d="M50,90 l2,6 6,2 -6,2 -2,6 -2,-6 -6,-2 6,-2 z"/>
+<path class="tw" style="animation-delay:1.2s" d="M370,120 l2,6 6,2 -6,2 -2,6 -2,-6 -6,-2 6,-2 z"/>
+<path class="tw" style="animation-delay:.8s" d="M40,300 l2,6 6,2 -6,2 -2,6 -2,-6 -6,-2 6,-2 z"/>
+</g>
+
+<!-- strap + card group: drops in then settles into a gentle sway -->
+<g class="settle">
+  <g class="sway">
+    <!-- strap -->
+    <path d="M195,-40 L195,300 L225,300 L225,-40 Z" fill="url(#strapg)"/>
+    <text x="210" y="130" font-size="11" font-weight="700" fill="#0b0e1f" text-anchor="middle" transform="rotate(90,210,130)" letter-spacing="2">PARMARJH · AI ENGINEER</text>
+    <text x="210" y="230" font-size="11" font-weight="700" fill="#0b0e1f" text-anchor="middle" transform="rotate(90,210,230)" letter-spacing="2">AGENTIC AI · RAG · LANGGRAPH</text>
+
+    <!-- clasp -->
+    <rect x="192" y="292" width="36" height="20" rx="6" fill="url(#metal)" stroke="#4a4f5c"/>
+    <circle cx="210" cy="304" r="9" fill="none" stroke="url(#metal)" stroke-width="4"/>
+
+    <!-- card wobble group -->
+    <g class="wob">
+      <rect x="78" y="296" width="264" height="338" rx="22" fill="#000" opacity=".35" filter="url(#cardShadow)"/>
+      <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardg)" stroke="url(#cardborder)" stroke-width="2.5"/>
+
+      <!-- header strip -->
+      <rect x="82" y="298" width="256" height="34" rx="20" fill="#171d3a"/>
+      <text x="210" y="320" text-anchor="middle" font-size="11" font-weight="700" fill="#8892b0" letter-spacing="3">ALL ACCESS · AI OPS</text>
+
+      <!-- avatar ring with AI glyph -->
+      <circle cx="210" cy="384" r="50" fill="none" stroke="url(#ringg2)" stroke-width="3" filter="url(#glow2)"/>
+      <circle class="spin" cx="210" cy="384" r="58" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="3 8" opacity=".5"/>
+      <linearGradient id="ringg2" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%"><animate attributeName="stop-color" values="#22d3ee;#7c5cff;#fbbf24;#22d3ee" dur="6s" repeatCount="indefinite"/></stop>
+        <stop offset="100%"><animate attributeName="stop-color" values="#fbbf24;#22d3ee;#7c5cff;#fbbf24" dur="6s" repeatCount="indefinite"/></stop>
+      </linearGradient>
+      <g clip-path="url(#avatarclip)">
+        <rect x="164" y="338" width="92" height="92" fill="#0b0e1f"/>
+        <g class="pl" fill="none" stroke="url(#ringg2)" stroke-width="2.6" stroke-linecap="round">
+          <path d="M210,352 Q234,362 234,384 Q234,406 210,416 Q186,406 186,384 Q186,362 210,352 Z"/>
+          <circle cx="210" cy="380" r="3.4" fill="#fbbf24" stroke="none"/>
+          <path d="M196,388 L204,392 L210,382 L220,398 L226,392"/>
+        </g>
+      </g>
+
+      <text x="210" y="456" text-anchor="middle" font-size="19" font-weight="800" fill="url(#nameg2)">Jatinkumar Parmar</text>
+      <text x="210" y="476" text-anchor="middle" font-size="12.5" fill="#a9b4d0">Senior AI Engineer · Agentic AI</text>
+      <text x="210" y="496" text-anchor="middle" font-size="12" fill="#8892b0">@parmarjh · Surat, India</text>
+
+      <!-- barcode -->
+      <g transform="translate(122,548)" fill="#c7d2fe">
+        <rect x="0" y="0" width="2" height="34"/><rect x="4" y="0" width="1" height="34"/><rect x="8" y="0" width="3" height="34"/><rect x="14" y="0" width="1" height="34"/><rect x="18" y="0" width="2" height="34"/><rect x="23" y="0" width="1" height="34"/><rect x="27" y="0" width="4" height="34"/><rect x="34" y="0" width="1" height="34"/><rect x="38" y="0" width="2" height="34"/><rect x="43" y="0" width="1" height="34"/><rect x="47" y="0" width="3" height="34"/><rect x="53" y="0" width="1" height="34"/><rect x="57" y="0" width="2" height="34"/><rect x="62" y="0" width="1" height="34"/><rect x="66" y="0" width="4" height="34"/><rect x="73" y="0" width="1" height="34"/><rect x="77" y="0" width="2" height="34"/><rect x="82" y="0" width="1" height="34"/><rect x="86" y="0" width="3" height="34"/><rect x="92" y="0" width="1" height="34"/><rect x="96" y="0" width="2" height="34"/><rect x="101" y="0" width="1" height="34"/><rect x="105" y="0" width="4" height="34"/><rect x="112" y="0" width="1" height="34"/><rect x="116" y="0" width="2" height="34"/><rect x="121" y="0" width="1" height="34"/><rect x="125" y="0" width="3" height="34"/><rect x="131" y="0" width="1" height="34"/><rect x="135" y="0" width="2" height="34"/><rect x="140" y="0" width="1" height="34"/><rect x="144" y="0" width="4" height="34"/><rect x="151" y="0" width="1" height="34"/><rect x="155" y="0" width="2" height="34"/>
+      </g>
+      <text x="210" y="598" text-anchor="middle" font-size="10" fill="#6b7290" letter-spacing="2">GH-900247-AGT</text>
+
+      <!-- holographic shine sweep -->
+      <g clip-path="url(#cardclip)">
+        <rect class="shine" x="82" y="298" width="90" height="330" fill="url(#shineg)"/>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>
